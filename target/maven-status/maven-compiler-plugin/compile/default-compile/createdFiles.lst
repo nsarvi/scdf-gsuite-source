@@ -1,3 +1,6 @@
 META-INF/spring-configuration-metadata.json
 io/pivotal/infosec/GSuiteLogsSource/GSuiteLogsSourceOptionsMetadata.class
 io/pivotal/infosec/GSuiteLogsSource/GSuiteLogsApplication.class
+io/pivotal/infosec/GSuiteLogsSource/GSuiteDriveLog.class
+io/pivotal/infosec/GSuiteLogsSource/GSuiteLogsSourceConfig.class
+io/pivotal/infosec/GSuiteLogsSource/GSuiteLogsProducer.class

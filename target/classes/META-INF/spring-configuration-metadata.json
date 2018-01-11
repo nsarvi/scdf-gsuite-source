@@ -1,0 +1,49 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "io.pivotal.infosec.GSuiteLogsSource.GSuiteLogsSourceOptionsMetadata",
+      "name": "",
+      "type": "io.pivotal.infosec.GSuiteLogsSource.GSuiteLogsSourceOptionsMetadata"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "io.pivotal.infosec.GSuiteLogsSource.GSuiteLogsSourceOptionsMetadata",
+      "name": "fixed-delay",
+      "description": "Fixed delay in seconds",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.pivotal.infosec.GSuiteLogsSource.GSuiteLogsSourceOptionsMetadata",
+      "name": "resource-loader",
+      "description": "Resource to the Service Account's Private Key file",
+      "type": "org.springframework.core.io.ResourceLoader"
+    },
+    {
+      "sourceType": "io.pivotal.infosec.GSuiteLogsSource.GSuiteLogsSourceOptionsMetadata",
+      "name": "service-account-email",
+      "description": "Email of the Service Account",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.pivotal.infosec.GSuiteLogsSource.GSuiteLogsSourceOptionsMetadata",
+      "defaultValue": "120",
+      "name": "start-range",
+      "description": "Start range in seconds",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.pivotal.infosec.GSuiteLogsSource.GSuiteLogsSourceOptionsMetadata",
+      "name": "state-date",
+      "description": "Start date in the format YYYY-MM-DD HH:mm:ss",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.pivotal.infosec.GSuiteLogsSource.GSuiteLogsSourceOptionsMetadata",
+      "name": "user-mail",
+      "description": "User's email",
+      "type": "java.lang.String"
+    }
+  ]
+}
